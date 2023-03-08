@@ -35,7 +35,7 @@ test("10 dolares should be 12790 yens", function(){
     const valueInyens = fromDollarToYen(10)
 
     // is 10 (dolares/euros) * valor yen
-    const expected = Math.floor(10/1.2) * 127.9; 
+    const expected = (10/1.2) * 127.9; 
     
     // hago mi comparacion (la prueba)
     expect(expected).toBe(valueInyens);})
@@ -48,7 +48,7 @@ test("1000 yen should be 6.25 british pound", function(){
     const valueInbp = fromYenToPound(1000)
 
     // is 1000(yen/euro) * valor libra
-    const expected = Math.floor((1000/127.9)) * 0.8; 
+    const expected = ((1000/127.9)) * 0.8; 
     
     // hago mi comparacion (la prueba)
     expect(expected).toBe(valueInbp);

@@ -15,7 +15,7 @@ const fromEuroToDollar = function (valueInEuro) {
 //declaramos una funcion con el nombre fromDollarToEuro
 const fromDollartoEuro = function (valueInDolar) {
     //convertimos el valor a Euros
-    let valueInEuro = Math.floor(valueInDolar / oneEuroIs.USD);
+    let valueInEuro = (valueInDolar / oneEuroIs.USD);
     //retornamos el valor
     return valueInEuro;
 }
@@ -29,7 +29,7 @@ const fromDollarToYen = function (valueInDollar) {
 //declaramos una funcion con el nombre fromYentoEuro
 const fromYentoEuro = function(valueInYen){
    //convertimos el valor a Euro
-    let valueInEuro = Math.floor(valueInYen / oneEuroIs.JPY);
+    let valueInEuro =(valueInYen / oneEuroIs.JPY);
  //retornamos el valor
     return valueInEuro;
 }
